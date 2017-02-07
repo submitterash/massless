@@ -139,7 +139,9 @@ footer, header {
 	margin:0 auto;
 	/*padding-bottom:20px;*/
 }
-
+.row{
+	margin: 0.5%;
+}
 .tof {
 	right: 0;
 	padding:2px 4px;
