@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="bin/styles.css">
 
@@ -53,75 +53,85 @@
 
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
-</nav>	
+</nav>
 	</header>
 
-	<h2 class="heading absolute">Restaurants</h2>
 
-	<div class="restaurants">
-		<div id="r1" class="restHolder" hidden>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<h2 class="heading absolute">Restaurants</h2>
 		</div>
-
-		<div id="r2" class="inl-blck brd">
-			<div class="restaurant relative">
-				<span class="absolute float tof asian">ASIAN</span>
-				<img src="images/s1.jpg" alt="" width="250" height="250"/>
-				<p class="hours center">
-					Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
-				</p>
+		<div class="col-sm-4">
+			<div id="r2" class="inl-blck brd">
+				<div class="restaurant relative">
+					<span class="absolute float tof asian">ASIAN</span>
+					<img src="images/s1.jpg" alt="" width="250" height="250"/>
+					<p class="hours center">
+						Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
+					</p>
+				</div>
+				<div class="center location">123 location street.</div>
 			</div>
-			<div class="center location">123 location street.</div>
 		</div>
-
-		<div id="r3" class="inl-blck brd">
-			<div class="restaurant relative">
-				<span class="absolute float tof american">AMERICAN</span>
-				<img src="images/american.jpg" alt="" width="250" height="250"/>
-				<p class="hours center">
-					Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
-				</p>
+		<div class="col-sm-4">
+			<div id="r3" class="inl-blck brd">
+				<div class="restaurant relative">
+					<span class="absolute float tof american">AMERICAN</span>
+					<img src="images/american.jpg" alt="" width="250" height="250"/>
+					<p class="hours center">
+						Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
+					</p>
+				</div>
+				<div class="center location">123 location street.</div>
 			</div>
-			<div class="center location">123 location street.</div>
 		</div>
 	</div>
 
-
-	<div class="restaurants">
-		<div id="r1" class="inl-blck brd">
-			<div class="restaurant relative">
-				<span class="absolute float tof greek">GREEK</span>
-				<img src="images/greek.jpg" alt="" width="250" height="250"/>
-				<p class="hours center">
-					Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
-				</p>
+	<div class="row">
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+						<img src="https://static.pexels.com/photos/5938/food-salad-healthy-lunch.jpg" alt="Greek">
+						<div class="caption">
+							<p class="hours center">
+								Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
+							</p>
+							<div class="center location">123 location street.</div>
+						</div>
 			</div>
-			<div class="center location">123 location street.</div>
 		</div>
 
-		<div id="r2" class="inl-blck brd">
-			<div class="restaurant relative">
-				<span class="absolute float tof asian">ASIAN</span>
-				<img src="images/s2.jpg" alt="" width="250" height="250"/>
-				<p class="hours center">
-					Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
-				</p>
-			</div>
-			<div class="center location">123 location street.</div>
-		</div>
+		
 
-		<div id="r3" class="inl-blck brd">
-			<div class="restaurant relative">
-				<span class="absolute float tof asian">ASIAN</span>
-				<img src="images/viet.jpg" alt="" width="250" height="250"/>
-				<p class="hours center">
-					Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
-				</p>
+	</div>
+
+		<div class="col-sm-4">
+			<div id="r5" class="inl-blck brd">
+				<div class="restaurant relative">
+					<span class="absolute float tof asian">ASIAN</span>
+					<img src="images/s2.jpg" alt="" width="250" height="250"/>
+					<p class="hours center">
+						Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
+					</p>
+				</div>
+				<div class="center location">123 location street.</div>
 			</div>
-			<div class="center location">123 location street.</div>
+		</div>
+		<div class="col-sm-4">
+			<div id="r6" class="inl-blck brd">
+				<div class="restaurant relative">
+					<span class="absolute float tof asian">ASIAN</span>
+					<img src="images/viet.jpg" alt="" width="250" height="250"/>
+					<p class="hours center">
+						Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
+					</p>
+				</div>
+				<div class="center location">123 location street.</div>
+			</div>
 		</div>
 	</div>
 
-	<footer>About Us		
+	<footer>About Us
 		<p>
 		<span class="fTitle">Ashraful Ahamed</span>
 		<span class="fDiv">submitterash@gmail.com</span><span class="fDiv">+1 613 263-4634</span></p>

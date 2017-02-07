@@ -10,15 +10,15 @@
 
 .asian {
 	background:#004040;
-	color:#D0CA9C;	
+	color:#D0CA9C;
 }
 
 body {
 	background-image:url('../images/pexels-photo-169557s.jpg');
-    background-size:     cover;                     
+    background-size:     cover;
     background-repeat:   no-repeat;
-    background-position: center center; 
-	background-attachment: fixed;    
+    background-position: center center;
+	background-attachment: fixed;
 }
 
 .center {
@@ -34,15 +34,15 @@ body {
 	color:yellow;
 }
 
-.heading {	
+.heading {
 	letter-spacing: 1.2px;
 	color: #d8ffb2;
 	text-indent: 8%;
-	text-shadow: 2px 3px black;	
+	text-shadow: 2px 3px black;
 }
 
 .inl-blck {
-	margin-left:10px;
+	/*margin-left:10px;*/
 	display:inline-block;
 
 }
@@ -129,12 +129,6 @@ footer, header {
 	position:relative;
 }
 
-.restHolder {
-	width:282px;
-	display: inline-block;
-	margin-left:10px;
-}
-
 .restaurant {
 	width:250px;
 	display:inline-block;
@@ -143,7 +137,7 @@ footer, header {
 .restaurants {
 	width:915px;
 	margin:0 auto;
-	padding-bottom:20px;
+	/*padding-bottom:20px;*/
 }
 
 .tof {
@@ -167,6 +161,6 @@ footer, header {
 }
 
 .brd {
-	border:1px dashed black; 
+	border:1px dashed black;
 	padding:15px 15px 0px 15px;
 }
