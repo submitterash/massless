@@ -3,19 +3,20 @@
 <head>
 	<title>our picks</title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">	
 
 	<link rel="stylesheet" type="text/css" href="bin/styles.css">
-
 </head>
 <body>
 	<header>
-<nav class="navbar navbar-default" style="width:50%; margin:0 auto; margin-bottom:15px; border:none">
+<nav class="navbar navbar-default" style="width:75%; margin:0 auto; margin-bottom:15px; border:none">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -58,69 +59,87 @@
 
 	<h2 class="heading absolute">Restaurants</h2>
 
-	<div class="restaurants">
-		<div id="r1" class="restHolder" hidden>
-		</div>
+	<div style="padding:5% 10%;">
 
-		<div id="r2" class="inl-blck brd">
-			<div class="restaurant relative">
-				<span class="absolute float tof asian">ASIAN</span>
-				<img src="images/s1.jpg" alt="" width="250" height="250"/>
-				<p class="hours center">
-					Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
-				</p>
-			</div>
-			<div class="center location">123 location street.</div>
-		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-4"></div>
 
-		<div id="r3" class="inl-blck brd">
-			<div class="restaurant relative">
-				<span class="absolute float tof american">AMERICAN</span>
-				<img src="images/american.jpg" alt="" width="250" height="250"/>
-				<p class="hours center">
-					Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
-				</p>
+			<div class="col-sm-6 col-md-4 restaurant">
+				<div id="r1" class="inl-blck brd">
+					<div class="relative">
+						<span class="absolute tof asian">ASIAN</span>
+						<img src="http://submission-islam.org/xyz/sushi1.jpg" alt=""/>
+						<p class="hours center">
+							<u>BUSINESS HOURS:</u><br />Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed<br /><br />
+							123 location street.<br />(613) 123-4567
+						</p>
+					</div>
+					<div class="center restName">BANC SUSHI</div>
+				</div>
 			</div>
-			<div class="center location">123 location street.</div>
-		</div>
+
+			<div class="col-sm-6 col-md-4 restaurant">
+				<div id="r2" class="inl-blck brd">
+					<div class="relative">
+						<span class="absolute tof asian">AMERICAN</span>
+						<img src="http://submission-islam.org/xyz/american.jpg" alt=""/>
+						<p class="hours center">
+							<u>BUSINESS HOURS:</u><br />Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed<br /><br />
+							123 location street.<br />(613) 123-4567
+						</p>
+					</div>
+					<div class="center restName">DENNY'S</div>
+				</div>
+			</div>
+		</div> <!-- end row -->
+
+<hr class="col-sm-0" />
+
+		<div class="row">
+			<div class="col-sm-6 col-md-4 restaurant">
+				<div id="r3" class="inl-blck brd">
+					<div class="relative">
+						<span class="absolute tof greek">GREEK</span>
+						<img src="http://submission-islam.org/xyz/greek.jpg" alt=""/>
+						<p class="hours center">
+							<u>BUSINESS HOURS:</u><br />Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed<br /><br />
+							123 location street.<br />(613) 123-4567
+						</p>
+					</div>
+					<div class="center restName">OLIVE GARDENS</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4 restaurant">
+				<div id="r4" class="inl-blck brd">
+					<div class="relative">
+						<span class="absolute tof asian">ASIAN</span>
+						<img src="http://submission-islam.org/xyz/s2.jpg" alt=""/>
+						<p class="hours center">
+							<u>BUSINESS HOURS:</u><br />Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed<br /><br />
+							123 location street.<br />(613) 123-4567
+						</p>
+					</div>
+					<div class="center restName">TEN SUSHI</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4 restaurant">
+				<div id="r5" class="inl-blck brd">
+					<div class="relative">
+						<span class="absolute tof asian">ASIAN</span>
+						<img src="http://submission-islam.org/xyz/viet.jpg" alt=""/>
+						<p class="hours center">
+							<u>BUSINESS HOURS:</u><br />Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed<br /><br />
+							123 location street.<br />(613) 123-4567
+						</p>
+					</div>
+					<div class="center restName">GREEN PAPAYA</div>
+				</div>
+			</div>
+		</div> <!-- end row -->
 	</div>
-
-
-	<div class="restaurants">
-		<div id="r1" class="inl-blck brd">
-			<div class="restaurant relative">
-				<span class="absolute float tof greek">GREEK</span>
-				<img src="images/greek.jpg" alt="" width="250" height="250"/>
-				<p class="hours center">
-					Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
-				</p>
-			</div>
-			<div class="center location">123 location street.</div>
-		</div>
-
-		<div id="r2" class="inl-blck brd">
-			<div class="restaurant relative">
-				<span class="absolute float tof asian">ASIAN</span>
-				<img src="images/s2.jpg" alt="" width="250" height="250"/>
-				<p class="hours center">
-					Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
-				</p>
-			</div>
-			<div class="center location">123 location street.</div>
-		</div>
-
-		<div id="r3" class="inl-blck brd">
-			<div class="restaurant relative">
-				<span class="absolute float tof asian">ASIAN</span>
-				<img src="images/viet.jpg" alt="" width="250" height="250"/>
-				<p class="hours center">
-					Monday-Friday: 9am-9pm<br />Saturday-Sunday: Closed
-				</p>
-			</div>
-			<div class="center location">123 location street.</div>
-		</div>
-	</div>
-
+	
 	<footer>About Us		
 		<p>
 		<span class="fTitle">Ashraful Ahamed</span>
