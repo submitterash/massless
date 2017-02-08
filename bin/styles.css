@@ -1,8 +1,7 @@
 
-.absolute {
-	position:absolute;
+.absolute{
+	position: absolute;
 }
-
 .american {
 	background: #089de3;
 	color: #fa8e2a;
@@ -17,7 +16,6 @@ body {
 	background-image:url('../images/pexels-photo-169557s.jpg');
     background-size: cover;                     
     background-repeat: no-repeat;
-    background-position: center center; 
 	background-attachment: fixed;    
 }
 
@@ -136,4 +134,10 @@ img {
 	padding:2px 4px;
 	text-shadow: 1px 1px black;
 	border-radius:5px;
+}
+
+@media only screen and (max-width: 700px) {
+    hr {
+       	display: none; 
+    }
 }
